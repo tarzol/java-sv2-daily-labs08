@@ -44,14 +44,8 @@ public class Recipe {
 
     public void printOutAllElements() {
         System.out.println("A sütemény neve:"+name
-                +"\nRövid leírás: "+descriprion+"\n Összetevők: "+ingredients);
+                +"\nRövid leírás: "+descriprion+"\nÖsszetevők: "+ingredients);
     }
-
-    /*public void addIngredient(String string, String[] varargs) {
-        for ( String item: varargs) {
-            ingredients.add(item);
-        }
-    }*/
 
     public void addIngredient(String string, String... more) {
         ingredients.add(string);
@@ -66,10 +60,5 @@ public class Recipe {
         beigli.setName("Beigli");
         beigli.setDescriprion("Finom és mákos");
         beigli.printOutAllElements();
-
-        //System.out.println(beigli.name);
-        //System.out.println(beigli.getName());
-        //System.out.println(beigli.descriprion);
-        //System.out.println(beigli.getDescriprion());
     }
 }

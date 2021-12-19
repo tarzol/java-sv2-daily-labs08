@@ -47,7 +47,7 @@ public class NumberSequence {
         //List<Integer> numbersNearAverage = numberSequence.closeToAverage(4);
         //System.out.println(numbersNearAverage);
 
-        NumberSequence numberSequence1 = new NumberSequence(8, 3, 6);
+        NumberSequence numberSequence1 = new NumberSequence(8, 1, 6);
         List<Integer> numbersNearAverage1 = numberSequence1.closeToAverage(2);
         System.out.println(numbersNearAverage1);
     }
